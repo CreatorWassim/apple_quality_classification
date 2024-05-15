@@ -1,5 +1,5 @@
 
-# **Project Title: Apple Quality Classification using Support Vector Machines (SVM)**
+# **Apple Quality Classification using Support Vector Machines (SVM)**
 
 **Introduction:**
 

@@ -5,7 +5,12 @@
 
 This project aims to develop a robust machine learning model for classifying the quality of apples based on various features such as size, weight, sweetness, crunchiness, juiciness, ripeness, and acidity. Support Vector Machines (SVM) are employed as the primary classifier due to their effectiveness in handling high-dimensional data and their capability to handle non-linear decision boundaries.
 
+You can run the original code on Kaggle:
+https://www.kaggle.com/code/wassimouledmohamed/apple-quality-classification-using-svm
+
 **Dataset:**
+
+https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality
 
 The dataset used in this project consists of 4000 samples of apple data, with features including size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and the quality label (good or bad). The dataset was preprocessed by dropping missing values and irrelevant columns, resulting in a balanced dataset with 2004 samples labeled as 'good' and 1996 samples labeled as 'bad'.
 
@@ -24,13 +29,3 @@ Two other SVM classifiers were explored: Polynomial Kernel SVM and RBF Kernel SV
 **Conclusion:**
 
 In conclusion, the RBF Kernel SVM with hyperparameters C=100 and gamma=0.1 emerged as the most effective classifier for apple quality classification, achieving a test accuracy of 93%. This model can be deployed for practical applications in fruit quality assessment, contributing to improved quality control processes in the agricultural industry. 
-
-
-
-**Author:**
-
-[Wassim Ouled Mohamed]
-
-**License:**
-
-This project is licensed under the [License Name] License - see the [LICENSE.md](link) file for details.
